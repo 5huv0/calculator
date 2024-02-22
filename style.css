@@ -40,11 +40,16 @@
 
 
 .button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     width: 50px;
     border-radius: 35px;
     height: 40px;
     background-color: rgb(133, 66, 133);
     border: none;
+}
+
+.button:hover{
     box-shadow: 2px 4px 5px rgba(192, 190, 190, 0.6);
 }
 
