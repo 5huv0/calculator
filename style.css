@@ -1,17 +1,18 @@
 .calculator-body{
     background-color: black;
     border-radius: 20px;
-    height: 600px;
+    height: 575px;
     width: 500px;
     margin: 10px;
 }
 .cal-buttons{
-    padding-top: 16px;
+    padding-top: 2px;
 }
 
 #result-cal{
     height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 .row , .col{
