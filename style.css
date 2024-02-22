@@ -1,16 +1,17 @@
 .calculator-body{
     background-color: black;
     border-radius: 20px;
-    height: 620px;
+    height: 600px;
     width: 500px;
     margin: 10px;
 }
 .cal-buttons{
-    padding-top: 56px;
+    padding-top: 16px;
 }
 
-.result-cal{
+#result-cal{
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .row , .col{
@@ -18,9 +19,9 @@
 }
 
 .row{
-    background-color:aqua ;
+    background-color:gainsboro ;
     border-radius: 19px;
-    margin: 2px;
+    margin: 3px;
 }
 
 .col{
