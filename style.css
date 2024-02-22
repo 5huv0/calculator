@@ -1,5 +1,5 @@
 .calculator-body{
-    background-color: black;
+    background-color: rgb(111, 109, 109);
     border-radius: 20px;
     height: 656px;
     width: 500px;
@@ -9,7 +9,7 @@
     padding-top: 2px;
 }
 
-#result-cal{
+#display{
     height: 200px;
     margin-bottom: 15px;
     margin-top: 0px;
@@ -20,7 +20,7 @@
 }
 
 .row{
-    background-color:gainsboro ;
+    /* background-color:gainsboro ; */
     border-radius: 19px;
     margin: 3px;
 }
@@ -32,9 +32,10 @@
 }
 
 .col-12{
-    background-color:darkcyan ;
+    background-color:rgb(201, 200, 200) ;
     margin: 1px;
     border-radius: 20px;
+    
 }
 
 
@@ -42,8 +43,9 @@
     width: 50px;
     border-radius: 35px;
     height: 40px;
-    background-color: brown;
+    background-color: rgb(133, 66, 133);
     border: none;
+    box-shadow: 2px 4px 5px rgba(192, 190, 190, 0.6);
 }
 
 

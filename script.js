@@ -52,10 +52,11 @@ function zero(){
 
 
 function add(){
+    let temp = "";
     console.log("+");
 }
 
-function susbtract(){
+function substract(){
     console.log("-");
 }
 
@@ -65,4 +66,8 @@ function multiple(){
 
 function divide(){
     console.log("/");
+}
+
+function dot(){
+    console.log(".");
 }
