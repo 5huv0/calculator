@@ -68,6 +68,6 @@ function equals() {
     }
 
     document.getElementById("input-display").value = result;
-} // This is for adding values
+} // This is for adding values 
 
 
