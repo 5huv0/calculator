@@ -34,7 +34,7 @@ function divide() {
     let input = document.getElementById("input-display").value;
     input += "/";
     document.getElementById("input-display").value = input;
-} // These are for signs
+} // These are for signs +,-,x,/
 
 
 let firstNumber = ""; // Variable to store the first number
