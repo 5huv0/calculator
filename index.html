@@ -12,41 +12,41 @@
     <div class="calculator-body">
       <div class="container text-center cal-buttons">
 
-        <input placeholder="ans" id="input-display" readonly>
+        <input id="input-display" readonly>
 
         <div class="row">
-          <div class="col" onclick="clearDisplay()"><button class="button">C</button></div>
-          <div class="col" onclick="k()"><button class="button">+/-</button></div>
-          <div class="col" onclick="k()"><button class="button">%</button></div>
-          <div class="col" onclick="divide()"><button class="button">/</button></div>
+          <div class="col" onclick="clearDisplay()"><button class="button" id="diff">C</button></div>
+          <div class="col" onclick="k()"><button class="button" id="diff">+/-</button></div>
+          <div class="col" onclick="k()"><button class="button" id="diff">%</button></div>
+          <div class="col" onclick="divide()"><button class="button" id="diff">/</button></div>
         </div>
 
         <div class="row">
-          <div class="col" onclick="seven()"><button class="button">7</button></div>
-          <div class="col" onclick="eight()"><button class="button">8</button></div>
-          <div class="col" onclick="nine()"><button class="button">9</button></div>
-          <div class="col" onclick="multiple()"><button class="button">x</button></div>
+          <div class="col" onclick="updateInput(7)"><button class="button">7</button></div>
+          <div class="col" onclick="updateInput(8)"><button class="button">8</button></div>
+          <div class="col" onclick="updateInput(9)"><button class="button">9</button></div>
+          <div class="col" onclick="multiply()"><button class="button" id="diff">x</button></div>
         </div>
 
         <div class="row">
-          <div class="col" onclick="four()"><button class="button">4</button></div>
-          <div class="col" onclick="five()"><button class="button">5</button></div>
-          <div class="col" onclick="six()"><button class="button">6</button></div>
-          <div class="col" onclick="substract()"><button class="button">-</button></div>
+          <div class="col" onclick="updateInput(4)"><button class="button">4</button></div>
+          <div class="col" onclick="updateInput(5)"><button class="button">5</button></div>
+          <div class="col" onclick="updateInput(6)"><button class="button">6</button></div>
+          <div class="col" onclick="subtract()"><button class="button" id="diff">-</button></div>
         </div>
 
         <div class="row">
-          <div class="col" onclick="one()"><button class="button">1</button></div>
-          <div class="col" onclick="two()"><button class="button">2</button></div>
-          <div class="col" onclick="three()"><button class="button">3</button></div>
-          <div class="col" onclick="add()"><button class="button">+</button></div>
+          <div class="col" onclick="updateInput(1)"><button class="button">1</button></div>
+          <div class="col" onclick="updateInput(2)"><button class="button">2</button></div>
+          <div class="col" onclick="updateInput(3)"><button class="button">3</button></div>
+          <div class="col" onclick="add()"><button class="button" id="diff">+</button></div>
         </div>
 
         <div class="row">
-          <div class="col" onclick="zero()"><button class="button">0</button></div>
+          <div class="col" onclick="updateInput(0)"><button class="button">0</button></div>
           <div class="col" onclick="dot()"><button class="button">.</button></div>
-          <div class="col" onclick="ans()"><button class="button">Ans</button></div>
-          <div class="col" onclick="equal()"><button class="button">=</button></div>
+          <div class="col" onclick="ans()"><button class="button" id="diff2">Ans</button></div>
+          <div class="col" onclick="equal()"><button class="button" id="diff1">=</button></div>
         </div>
 
       </div>
