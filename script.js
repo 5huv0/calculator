@@ -12,6 +12,7 @@ function updateInput(number) {
     document.getElementById("input-display").value = currentInput;
   } // This is to add multiple time
 
+  
   function add() {
     let input = document.getElementById("input-display").value;
     input += "+";
