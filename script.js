@@ -2,7 +2,8 @@
 // let result = document.getElementById("result-cal");
 
 function one(){
-    console.log(1);
+   let temp = console.log(1);
+   return temp;
 }
 
 
@@ -73,7 +74,7 @@ function dot(){
 }
 
 function display(){
-
+    console.log(temp);
 }
 
 function calculate(){
@@ -82,4 +83,5 @@ function calculate(){
 
 function clearDisplay(){
     console.log(" ");
+
 }
