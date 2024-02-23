@@ -71,3 +71,15 @@ function divide(){
 function dot(){
     console.log(".");
 }
+
+function display(){
+
+}
+
+function calculate(){
+
+}
+
+function clearDisplay(){
+    console.log(" ");
+}
