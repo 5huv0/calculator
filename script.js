@@ -37,20 +37,37 @@ function divide() {
 } // These are for signs
 
 
-// function add() {
-//     let input = document.getElementById("input-display").value;
-    
-//     // Split the input string by the '+' symbol to extract the two numbers
-//     let numbers = input.split('+');
+let firstNumber = ""; // Variable to store the first number
+let operation = ""; // Variable to store the operation (+, -, *, /)
 
-//     // Convert the extracted numbers from strings to actual numbers
-//     let num1 = parseFloat(numbers[0]);
-//     let num2 = parseFloat(numbers[1]);
+function addToInput(value) {
+    document.getElementById("input-display").value += value;
+}
 
-//     // Perform the addition operation
-//     let result = num1 + num2;
+function clearInput() {
+    document.getElementById("input-display").value = "";
+    firstNumber = "";
+    operation = "";
+}
 
-//     // Update the input field with the result
-//     document.getElementById("input-display").value = result;
-// } //This is for adding values
+function add() {
+    firstNumber = document.getElementById("input-display").value;
+    operation = "+";
+    addToInput("+");
+}
+
+function equals() {
+    let secondNumber = document.getElementById("input-display").value.split(operation)[1];
+    let result;
+
+    switch (operation) {
+        case "+":
+            result = parseFloat(firstNumber) + parseFloat(secondNumber);
+            break;
+        // Add cases for other operations if needed
+    }
+
+    document.getElementById("input-display").value = result;
+} // This is for adding values
+
 
