@@ -1,109 +1,6 @@
-// function one(){
-//   console.log(1); 
-// }
-
-
-// function two(){
-//     console.log(2);
-// }
-
-
-// function three(){
-//     console.log(3);
-// }
-
-
-// function four(){
-//     console.log(4);
-// }
-
-
-// function five(){
-//     console.log(5);
-// }
-
-
-// function six(){
-//     console.log(6);
-// }
-
-
-// function seven(){
-//     console.log(7);
-// }
-
-
-// function eight(){
-//     console.log(8);
-// }
-
-
-// function nine(){
-//     console.log(9);
-// }
-
-
-// function zero(){
-//     console.log(0);
-// }
-
-
-function add(){
-    let temp = "";
-    console.log("+");
-}
-
-function substract(){
-    console.log("-");
-}
-
-function multiple(){
-    console.log("*");
-}
-
-function divide(){
-    console.log("/");
-}
-
-function dot(){
-    console.log(".");
-}
-
-// function display(){
-    
-// }
-
-// function calculate(){
-
-// }
-
-function clearDisplay(){
-    console.log(" ");
-}
-
-// function add(){
-
-// }
-
-// function substract(){
-
-// }
-
-// function multiple(){
-
-// }
-
-// function divide(){
-
-// }
-
-// function store(){
-
-// }
-
 function updateInput(number) {
     document.getElementById("input-display").value += number;
-  }
+  } // This is to show on display
 
   function updateInput(value) {
     
@@ -113,7 +10,7 @@ function updateInput(number) {
     currentInput += value;
   
     document.getElementById("input-display").value = currentInput;
-  }
+  } // This is to add multiple time
 
   function add() {
     let input = document.getElementById("input-display").value;
@@ -137,4 +34,23 @@ function divide() {
     let input = document.getElementById("input-display").value;
     input += "/";
     document.getElementById("input-display").value = input;
-}
+} // These are for signs
+
+
+// function add() {
+//     let input = document.getElementById("input-display").value;
+    
+//     // Split the input string by the '+' symbol to extract the two numbers
+//     let numbers = input.split('+');
+
+//     // Convert the extracted numbers from strings to actual numbers
+//     let num1 = parseFloat(numbers[0]);
+//     let num2 = parseFloat(numbers[1]);
+
+//     // Perform the addition operation
+//     let result = num1 + num2;
+
+//     // Update the input field with the result
+//     document.getElementById("input-display").value = result;
+// } //This is for adding values
+
