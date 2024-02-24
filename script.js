@@ -38,7 +38,7 @@ function divide() {
 
 
 let firstNumber = ""; // Variable to store the first number
-let operation = ""; // Variable to store the operation (+, -, *, /)
+let operation = ""; // Variable to store the operation (+, -, *, /) 
 
 // function addToInput(value) {
 //     document.getElementById("input-display").value += value;
