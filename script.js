@@ -10,7 +10,7 @@ function updateInput(number) {
     currentInput += value;
   
     document.getElementById("input-display").value = currentInput;
-  } // This is to add numbers multiple time
+  } // This is to input numbers multiple time
 
   function add() {
     let input = document.getElementById("input-display").value;
@@ -69,5 +69,7 @@ function equals() {
 
     document.getElementById("input-display").value = result;
 } // This is for adding values 
+
+
 
 
