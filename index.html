@@ -14,34 +14,46 @@
 
         <input placeholder="_" id="input-display" readonly>
 
+        // This row have C, +/-, %, /
+
         <div class="row">
           <div class="col" onclick="clearInput()"><button class="button" id="diff">C</button></div>
-          <div class="col" onclick="k()"><button class="button" id="diff">+/-</button></div>
-          <div class="col" onclick="k()"><button class="button" id="diff">%</button></div>
-          <div class="col" onclick="divide()"><button class="button" id="diff">/</button></div>
+          <div class="col" onclick="k()"><button class="button" id="diff3">+/-</button></div>
+          <div class="col" onclick="k()"><button class="button" id="diff4">%</button></div>
+          <div class="col" onclick="divide()"><button class="button" id="diff5">/</button></div>
         </div>
+
+        // This row have 7, 8, 9, x
 
         <div class="row">
           <div class="col" onclick="updateInput(7)"><button class="button">7</button></div>
           <div class="col" onclick="updateInput(8)"><button class="button">8</button></div>
           <div class="col" onclick="updateInput(9)"><button class="button">9</button></div>
-          <div class="col" onclick="multiply()"><button class="button" id="diff">x</button></div>
+          <div class="col" onclick="multiply()"><button class="button" id="diff6">x</button></div>
         </div>
+
+        // This row have 4, 5, 6, -
+
 
         <div class="row">
           <div class="col" onclick="updateInput(4)"><button class="button">4</button></div>
           <div class="col" onclick="updateInput(5)"><button class="button">5</button></div>
           <div class="col" onclick="updateInput(6)"><button class="button">6</button></div>
-          <div class="col" onclick="subtract()"><button class="button" id="diff">-</button></div>
+          <div class="col" onclick="subtract()"><button class="button" id="diff7">-</button></div>
         </div>
+
+        // This row have 1, 2, 3, +
+
 
         <div class="row">
           <div class="col" onclick="updateInput(1)"><button class="button">1</button></div>
           <div class="col" onclick="updateInput(2)"><button class="button">2</button></div>
           <div class="col" onclick="updateInput(3)"><button class="button">3</button></div>
-          <div class="col" onclick="add()"><button class="button" id="diff">+</button></div>
+          <div class="col" onclick="add()"><button class="button" id="diff8">+</button></div>
         </div>
-        
+
+
+        // This row have 0, dot, ans, =
 
         <div class="row">
           <div class="col" onclick="updateInput(0)"><button class="button">0</button></div>

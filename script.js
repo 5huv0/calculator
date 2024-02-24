@@ -40,35 +40,15 @@ function divide() {
 let firstNumber = ""; // Variable to store the first number
 let operation = ""; // Variable to store the operation (+, -, *, /) 
 
-// function addToInput(value) {
-//     document.getElementById("input-display").value += value;
-// }
 
 function clearInput() {
     document.getElementById("input-display").value = "";
     firstNumber = "";
     operation = "";
-}
+} // This is for clear button 
 
-// function add() {
-//     firstNumber = document.getElementById("input-display").value;
-//     operation = "+";
-//     addToInput("+");
-// }
 
-// function equals() {
-//     let secondNumber = document.getElementById("input-display").value.split(operation)[1];
-//     let result;
-
-//     switch (operation) {
-//         case "+":
-//             result = parseFloat(firstNumber) + parseFloat(secondNumber);
-//             break;
-//         // Add cases for other operations if needed
-//     }
-
-//     document.getElementById("input-display").value = result;
-// } // This is for adding values 
+ 
 
 
 
