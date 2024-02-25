@@ -6,9 +6,7 @@ function updateInput(number) {
     
     let currentInput = document.getElementById("input-display").value;
   
-    
     currentInput += value;
-  
     document.getElementById("input-display").value = currentInput;
   } // This is to input numbers multiple time
 
@@ -44,17 +42,26 @@ function dot(){
 
 
 let firstNumber = ""; // Variable to store the first number
-let operation = ""; // Variable to store the operation (+, -, *, /) 
+let operationSign = ""; // Variable to store the operation (+, -, *, /) 
 
 
 function clearInput() {
     document.getElementById("input-display").value = "";
     firstNumber = "";
-    operation = "";
+    operationSign = "";
 } // This is for clear button 
 
 
- 
+
+let currentInput = "";
+
+function updateInput(value) {
+    
+    let currentInput = document.getElementById("input-display").value;
+  
+    currentInput += value;
+    document.getElementById("input-display").value = currentInput;
+  }
 
 
 
