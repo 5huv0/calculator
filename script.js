@@ -32,9 +32,15 @@ function multiply() {
 
 function divide() {
     let input = document.getElementById("input-display").value;
-    input += "/";
+    input += "÷";
     document.getElementById("input-display").value = input;
-} // These are for signs +,-,x,/
+}
+
+function dot(){
+    let input = document.getElementById("input-display").value;
+    input += ".";
+    document.getElementById("input-display").value = input;
+} // These are for signs +,-,x,/,.
 
 
 let firstNumber = ""; // Variable to store the first number
