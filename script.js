@@ -80,9 +80,6 @@ function calculate() {
     document.getElementById("input-display").value = result;
 }
 
-function clearInput() {
-    document.getElementById("input-display").value = "";
-}
 
 
 
