@@ -12,7 +12,7 @@
     <div class="calculator-body">
       <div class="container text-center cal-buttons">
 
-        <input placeholder="_" id="input-display" readonly>
+        <input id="input-display" readonly>
 
         <!-- This row have C, +/-, %, / -->
 
@@ -59,7 +59,7 @@
           <div class="col" onclick="updateInput(0)"><button class="button">0</button></div>
           <div class="col" onclick="dot()"><button class="button">.</button></div>
           <div class="col" onclick=""><button class="button" id="diff2">Ans</button></div>
-          <div class="col" onclick=""><button class="button" id="diff1">=</button></div>
+          <div class="col" onclick="calculate()"><button class="button" id="diff1">=</button></div>
         </div>
 
       </div>

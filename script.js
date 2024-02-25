@@ -52,17 +52,37 @@ function clearInput() {
 } // This is for clear button 
 
 
-
-let currentInput = "";
-
 function updateInput(value) {
-    
     let currentInput = document.getElementById("input-display").value;
-  
     currentInput += value;
     document.getElementById("input-display").value = currentInput;
-  }
+}
 
+function add() {
+    updateInput('+');
+}
+
+function subtract() {
+    updateInput('-');
+}
+
+function multiply() {
+    updateInput('*');
+}
+
+function divide() {
+    updateInput('/');
+}
+
+function calculate() {
+    let input = document.getElementById("input-display").value;
+    let result = eval(input); // Evaluate the expression
+    document.getElementById("input-display").value = result;
+}
+
+function clearInput() {
+    document.getElementById("input-display").value = "";
+}
 
 
 
